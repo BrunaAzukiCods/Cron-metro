@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cronômetro</title>  
+</head>
+
+<body>
+
+<div class="container">
+    
+            <h1>Cronômetro</h1>
+
+    <div class="timer">
+        <div class="minute-time" id="time" >00</div>
+        <div class="point">:</div>
+        <div class="time-second" id="time" >00</div>
+        <div class="point2">.</div>
+        <div class="time-millisecond" id="time" >00</div>
+    </div>  
+
+    <div class="button_start_stop">
+        <button class="start" type="button">Iniciar</button>
+        <button class="stop" type="button">Parar</button>
+    </div>
+
+    <div class="button_reset_record">
+        <button class="reset" type="button">Redefinir</button>
+        <button id="record" type="button">Gravar</button>
+    </div>
+
+         <div id="marks-list"></div>         
+
+
+</div>
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>

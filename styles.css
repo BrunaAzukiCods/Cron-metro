@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    height: 100vh;
+    width: 100%;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #2d3a41;
+    margin-top: 100px;
+}
+@font-face {
+    font-family: 'digital' ;
+    src: url('DS-DIGIB.TTF');
+}
+
+
+.timer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+#time{
+    margin-right: 10px;
+}
+
+.minute-time{
+    font-family: 'digital';
+    font-size: 200px;
+    color: #555555;
+}
+
+.point{
+    font-family: 'digital';
+    font-size: 200px;
+    color: #555555;
+}
+
+.time-second {
+    font-family: 'digital';
+    font-size: 200px;
+    color: #555555;
+   
+}
+
+.point2{
+    font-family: 'digital';
+    font-size: 150px;
+    color: #555555;
+    height: 80%;
+    align-self: flex-end;
+}
+
+.time-millisecond {
+    font-family: 'digital';
+    font-size: 100px;
+    color: #555555;
+    height: 59%;
+    align-self: flex-end;
+
+}
+
+.button_start_stop{
+    text-align: center;
+}
+
+
+.start {
+    font-family:'Oswald', sans-serif;
+    cursor: pointer;
+    background-color: #4AAE71 ;
+    border: none;
+    color: #ffffff;
+    height: 35px;
+    width: 70px;
+    font-size: 17px;
+}
+
+.stop {
+    font-family:'Oswald', sans-serif;
+    cursor: pointer;
+    background-color: #EF6262 ;
+    border: none;
+    color: #ffffff;
+    height: 35px;
+    width: 70px;
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.button_reset_record{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.reset {
+    font-family:'Oswald', sans-serif;
+    cursor: pointer;
+    background-color: #FBAD10 ;
+    border: none;
+    color: #ffffff;
+    height: 35px;
+    width: 70px;
+    font-size: 17px;
+}
+#record {
+    font-family:'Oswald', sans-serif;
+    cursor: pointer;
+    background-color: #0090DD ;
+    border: none;
+    color: #ffffff;
+    height: 35px;
+    width: 70px;
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+#marks-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.7rem;
+    color: #444242;
+    font-family: 'digital';
+    font-size: 30px;
+
+}
+
+#marks-list p:first-child{
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 768px){
+
+    h1{
+        font-size: 31px;
+    }
+
+    .timer{
+        margin: 0 auto;
+        padding-left: 113px;
+        padding-right: 45px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #time{
+        margin-right: 10px;
+        min-width: 100px;
+    }
+
+    .minute-time{
+        font-size: 100px;
+    }
+    
+    .point{
+        font-size: 100px;
+    }
+    
+    .time-second {
+        font-size: 100px;
+       
+    }
+    
+    .point2{
+        font-size: 68px;
+        height: 75%;
+    }
+    
+    .time-millisecond {
+        font-size: 50px;
+        height: 60%;
+    }
+
+    .start {
+        font-family:'Oswald', sans-serif;
+        cursor: pointer;
+        background-color: #4AAE71 ;
+        border: none;
+        color: #ffffff;
+        height: 25px;
+        width: 62px;
+        font-size: 11px;
+        
+    }
+    
+    .stop {
+        font-family:'Oswald', sans-serif;
+        cursor: pointer;
+        background-color: #EF6262 ;
+        border: none;
+        color: #ffffff;
+        height: 25px;
+        width: 62px;
+        font-size: 11px;
+        margin-left: 15px;
+    }
+    
+    .reset {
+        font-family:'Oswald', sans-serif;
+        cursor: pointer;
+        background-color: #FBAD10 ;
+        border: none;
+        color: #ffffff;
+        height: 25px;
+        width: 62px;
+        font-size: 11px;
+    }
+    #record {
+        font-family:'Oswald', sans-serif;
+        cursor: pointer;
+        background-color: #0090DD ;
+        border: none;
+        color: #ffffff;
+        height: 25px;
+        width: 62px;
+        font-size: 11px;
+        margin-left: 15px;
+    }
+
+    #marks-list {
+        font-size: 18px;
+    
+    }
+
+}
+
